@@ -30,11 +30,16 @@ To launch the app when Streamer.bot starts:
 2. Go to **Actions** → **New Action**.
 3. Name it something like `Start Log Viewer`.
 4. Add a **Sub Action**:
+    Core => System => Run A Program:
    - Type: `Execute Program`
    - Path: `apps\Log Viewer\StreamerBotLogViewer.exe`
    - Working Directory: `apps\Log Viewer`
-5. Go to **Settings** → **Startup** → Add the `Start Log Viewer` action to **"Actions to Run On Startup"**.
+5. Trigger: Core => Streamer.bot Started
 
+Or just import this
+```
+U0JBRR+LCAAAAAAABACNVU1zmzAQvWcm/4HhXDEG4wC5pW2SHnroJBlfSg4LWogmIFEhbGcy/u+V+LDBOG2O2vf0VrtvWd4vLyzLLlGBfW29m4M+cihRH+1HBVJZP0VuPSBQlPaXngCNehHSUJ5e8ElCwvgB26CsmeAGdJ2FszgAFOtUskr1YCteW4Jbj1+tQgAdq4uHht+kPZU3RTFgJeOsbMr1IYkBDbZvGTaFSSXQatQ68ruLWAPUwoyalyQI3jLMIpJ4rkd8iAKSrDIglHqQLiFMAj8bHtde+9Ngg9OHtXHkkBRoNJVscILs0qKheCdF+YPVSsg3TcqgqD9i/UJOGc/Psf7nTkvKpWgqw7qhumUWsW43yJVRHLOg2MJbrXt9Lo8ETkV5cGGGp4KnjZRa9hyqJMtz7dK49SftH1ngL9DNAt8j3ioIiL/yQhJChARpFLmpH4RhOLGgS/FWmUYEi6tT5EMjjm2uh7l4HqP74+F50qj5HJ0rJhVlqbtmKrq/juNaSYQyEcqNY6iqOo6NW2uGW5RxrMf+aJ6DO5wVCDJvSt1fk9eeoVshX7Wh35n8TL7ZdeSbNbT+vO9n0sDUnZC3O2a8XZzCnWfR8irLkjQkmRdmxI9oQGAZpSQK3WzpJmmCq3lJW2T5SyvqzGR7P2duDrN88rn1VfzLacYp7kyyz3t8b5J1gzEd9qKAqkY6wge4Fxz43XqYSAyDMQ1uMalF+orqEeWm/1Tm4LeC9SNwBBUrB/5o9x03r+t2EdxVQiqkZqMYyxaO54SdJ/NN2qI+SfS/wLmyLy/2fwFvot39HAYAAA==
+```
 ---
 
 ## 🔧 Application Features
